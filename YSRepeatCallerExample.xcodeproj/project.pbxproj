@@ -1,0 +1,570 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		2219385F1FDA8C3D00A0354B /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 2219385E1FDA8C3D00A0354B /* AppDelegate.m */; };
+		221938621FDA8C3D00A0354B /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 221938611FDA8C3D00A0354B /* ViewController.m */; };
+		221938651FDA8C3D00A0354B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 221938631FDA8C3D00A0354B /* Main.storyboard */; };
+		221938671FDA8C3D00A0354B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 221938661FDA8C3D00A0354B /* Assets.xcassets */; };
+		2219386A1FDA8C3D00A0354B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 221938681FDA8C3D00A0354B /* LaunchScreen.storyboard */; };
+		2219386D1FDA8C3D00A0354B /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 2219386C1FDA8C3D00A0354B /* main.m */; };
+		221938771FDA8C3D00A0354B /* YSRepeatCallerExampleTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 221938761FDA8C3D00A0354B /* YSRepeatCallerExampleTests.m */; };
+		221938821FDA8C3D00A0354B /* YSRepeatCallerExampleUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 221938811FDA8C3D00A0354B /* YSRepeatCallerExampleUITests.m */; };
+		22EDDA311FDE139500E4F471 /* YSRepeatCaller.m in Sources */ = {isa = PBXBuildFile; fileRef = 22EDDA2F1FDE139100E4F471 /* YSRepeatCaller.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		221938731FDA8C3D00A0354B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 221938521FDA8C3D00A0354B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 221938591FDA8C3D00A0354B;
+			remoteInfo = YSRepeatCallerExample;
+		};
+		2219387E1FDA8C3D00A0354B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 221938521FDA8C3D00A0354B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 221938591FDA8C3D00A0354B;
+			remoteInfo = YSRepeatCallerExample;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		2219385A1FDA8C3D00A0354B /* YSRepeatCallerExample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = YSRepeatCallerExample.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		2219385D1FDA8C3D00A0354B /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		2219385E1FDA8C3D00A0354B /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		221938601FDA8C3D00A0354B /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		221938611FDA8C3D00A0354B /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		221938641FDA8C3D00A0354B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		221938661FDA8C3D00A0354B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		221938691FDA8C3D00A0354B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		2219386B1FDA8C3D00A0354B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2219386C1FDA8C3D00A0354B /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		221938721FDA8C3D00A0354B /* YSRepeatCallerExampleTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = YSRepeatCallerExampleTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		221938761FDA8C3D00A0354B /* YSRepeatCallerExampleTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YSRepeatCallerExampleTests.m; sourceTree = "<group>"; };
+		221938781FDA8C3D00A0354B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2219387D1FDA8C3D00A0354B /* YSRepeatCallerExampleUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = YSRepeatCallerExampleUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		221938811FDA8C3D00A0354B /* YSRepeatCallerExampleUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YSRepeatCallerExampleUITests.m; sourceTree = "<group>"; };
+		221938831FDA8C3D00A0354B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		22EDDA2F1FDE139100E4F471 /* YSRepeatCaller.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YSRepeatCaller.m; sourceTree = "<group>"; };
+		22EDDA301FDE139100E4F471 /* YSRepeatCaller.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = YSRepeatCaller.h; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		221938571FDA8C3D00A0354B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2219386F1FDA8C3D00A0354B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2219387A1FDA8C3D00A0354B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		221938511FDA8C3D00A0354B = {
+			isa = PBXGroup;
+			children = (
+				22EDDA2E1FDE131500E4F471 /* YSRepeatCaller */,
+				2219385C1FDA8C3D00A0354B /* YSRepeatCallerExample */,
+				221938751FDA8C3D00A0354B /* YSRepeatCallerExampleTests */,
+				221938801FDA8C3D00A0354B /* YSRepeatCallerExampleUITests */,
+				2219385B1FDA8C3D00A0354B /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		2219385B1FDA8C3D00A0354B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				2219385A1FDA8C3D00A0354B /* YSRepeatCallerExample.app */,
+				221938721FDA8C3D00A0354B /* YSRepeatCallerExampleTests.xctest */,
+				2219387D1FDA8C3D00A0354B /* YSRepeatCallerExampleUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		2219385C1FDA8C3D00A0354B /* YSRepeatCallerExample */ = {
+			isa = PBXGroup;
+			children = (
+				2219385D1FDA8C3D00A0354B /* AppDelegate.h */,
+				2219385E1FDA8C3D00A0354B /* AppDelegate.m */,
+				221938601FDA8C3D00A0354B /* ViewController.h */,
+				221938611FDA8C3D00A0354B /* ViewController.m */,
+				221938631FDA8C3D00A0354B /* Main.storyboard */,
+				221938661FDA8C3D00A0354B /* Assets.xcassets */,
+				221938681FDA8C3D00A0354B /* LaunchScreen.storyboard */,
+				2219386B1FDA8C3D00A0354B /* Info.plist */,
+				2219386C1FDA8C3D00A0354B /* main.m */,
+			);
+			path = YSRepeatCallerExample;
+			sourceTree = "<group>";
+		};
+		221938751FDA8C3D00A0354B /* YSRepeatCallerExampleTests */ = {
+			isa = PBXGroup;
+			children = (
+				221938761FDA8C3D00A0354B /* YSRepeatCallerExampleTests.m */,
+				221938781FDA8C3D00A0354B /* Info.plist */,
+			);
+			path = YSRepeatCallerExampleTests;
+			sourceTree = "<group>";
+		};
+		221938801FDA8C3D00A0354B /* YSRepeatCallerExampleUITests */ = {
+			isa = PBXGroup;
+			children = (
+				221938811FDA8C3D00A0354B /* YSRepeatCallerExampleUITests.m */,
+				221938831FDA8C3D00A0354B /* Info.plist */,
+			);
+			path = YSRepeatCallerExampleUITests;
+			sourceTree = "<group>";
+		};
+		22EDDA2E1FDE131500E4F471 /* YSRepeatCaller */ = {
+			isa = PBXGroup;
+			children = (
+				22EDDA301FDE139100E4F471 /* YSRepeatCaller.h */,
+				22EDDA2F1FDE139100E4F471 /* YSRepeatCaller.m */,
+			);
+			path = YSRepeatCaller;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		221938591FDA8C3D00A0354B /* YSRepeatCallerExample */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 221938861FDA8C3D00A0354B /* Build configuration list for PBXNativeTarget "YSRepeatCallerExample" */;
+			buildPhases = (
+				221938561FDA8C3D00A0354B /* Sources */,
+				221938571FDA8C3D00A0354B /* Frameworks */,
+				221938581FDA8C3D00A0354B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = YSRepeatCallerExample;
+			productName = YSRepeatCallerExample;
+			productReference = 2219385A1FDA8C3D00A0354B /* YSRepeatCallerExample.app */;
+			productType = "com.apple.product-type.application";
+		};
+		221938711FDA8C3D00A0354B /* YSRepeatCallerExampleTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 221938891FDA8C3D00A0354B /* Build configuration list for PBXNativeTarget "YSRepeatCallerExampleTests" */;
+			buildPhases = (
+				2219386E1FDA8C3D00A0354B /* Sources */,
+				2219386F1FDA8C3D00A0354B /* Frameworks */,
+				221938701FDA8C3D00A0354B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				221938741FDA8C3D00A0354B /* PBXTargetDependency */,
+			);
+			name = YSRepeatCallerExampleTests;
+			productName = YSRepeatCallerExampleTests;
+			productReference = 221938721FDA8C3D00A0354B /* YSRepeatCallerExampleTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		2219387C1FDA8C3D00A0354B /* YSRepeatCallerExampleUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2219388C1FDA8C3D00A0354B /* Build configuration list for PBXNativeTarget "YSRepeatCallerExampleUITests" */;
+			buildPhases = (
+				221938791FDA8C3D00A0354B /* Sources */,
+				2219387A1FDA8C3D00A0354B /* Frameworks */,
+				2219387B1FDA8C3D00A0354B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				2219387F1FDA8C3D00A0354B /* PBXTargetDependency */,
+			);
+			name = YSRepeatCallerExampleUITests;
+			productName = YSRepeatCallerExampleUITests;
+			productReference = 2219387D1FDA8C3D00A0354B /* YSRepeatCallerExampleUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		221938521FDA8C3D00A0354B /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0900;
+				TargetAttributes = {
+					221938591FDA8C3D00A0354B = {
+						CreatedOnToolsVersion = 9.0;
+						ProvisioningStyle = Automatic;
+					};
+					221938711FDA8C3D00A0354B = {
+						CreatedOnToolsVersion = 9.0;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 221938591FDA8C3D00A0354B;
+					};
+					2219387C1FDA8C3D00A0354B = {
+						CreatedOnToolsVersion = 9.0;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 221938591FDA8C3D00A0354B;
+					};
+				};
+			};
+			buildConfigurationList = 221938551FDA8C3D00A0354B /* Build configuration list for PBXProject "YSRepeatCallerExample" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 221938511FDA8C3D00A0354B;
+			productRefGroup = 2219385B1FDA8C3D00A0354B /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				221938591FDA8C3D00A0354B /* YSRepeatCallerExample */,
+				221938711FDA8C3D00A0354B /* YSRepeatCallerExampleTests */,
+				2219387C1FDA8C3D00A0354B /* YSRepeatCallerExampleUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		221938581FDA8C3D00A0354B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2219386A1FDA8C3D00A0354B /* LaunchScreen.storyboard in Resources */,
+				221938671FDA8C3D00A0354B /* Assets.xcassets in Resources */,
+				221938651FDA8C3D00A0354B /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		221938701FDA8C3D00A0354B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2219387B1FDA8C3D00A0354B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		221938561FDA8C3D00A0354B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				22EDDA311FDE139500E4F471 /* YSRepeatCaller.m in Sources */,
+				221938621FDA8C3D00A0354B /* ViewController.m in Sources */,
+				2219386D1FDA8C3D00A0354B /* main.m in Sources */,
+				2219385F1FDA8C3D00A0354B /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2219386E1FDA8C3D00A0354B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				221938771FDA8C3D00A0354B /* YSRepeatCallerExampleTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		221938791FDA8C3D00A0354B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				221938821FDA8C3D00A0354B /* YSRepeatCallerExampleUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		221938741FDA8C3D00A0354B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 221938591FDA8C3D00A0354B /* YSRepeatCallerExample */;
+			targetProxy = 221938731FDA8C3D00A0354B /* PBXContainerItemProxy */;
+		};
+		2219387F1FDA8C3D00A0354B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 221938591FDA8C3D00A0354B /* YSRepeatCallerExample */;
+			targetProxy = 2219387E1FDA8C3D00A0354B /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		221938631FDA8C3D00A0354B /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				221938641FDA8C3D00A0354B /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		221938681FDA8C3D00A0354B /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				221938691FDA8C3D00A0354B /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		221938841FDA8C3D00A0354B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		221938851FDA8C3D00A0354B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		221938871FDA8C3D00A0354B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = H87JWTNA4P;
+				INFOPLIST_FILE = YSRepeatCallerExample/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.liyanshan.YSRepeatCallerExample;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		221938881FDA8C3D00A0354B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = H87JWTNA4P;
+				INFOPLIST_FILE = YSRepeatCallerExample/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.liyanshan.YSRepeatCallerExample;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		2219388A1FDA8C3D00A0354B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = H87JWTNA4P;
+				INFOPLIST_FILE = YSRepeatCallerExampleTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.liyanshan.YSRepeatCallerExampleTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/YSRepeatCallerExample.app/YSRepeatCallerExample";
+			};
+			name = Debug;
+		};
+		2219388B1FDA8C3D00A0354B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = H87JWTNA4P;
+				INFOPLIST_FILE = YSRepeatCallerExampleTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.liyanshan.YSRepeatCallerExampleTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/YSRepeatCallerExample.app/YSRepeatCallerExample";
+			};
+			name = Release;
+		};
+		2219388D1FDA8C3D00A0354B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = H87JWTNA4P;
+				INFOPLIST_FILE = YSRepeatCallerExampleUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.liyanshan.YSRepeatCallerExampleUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = YSRepeatCallerExample;
+			};
+			name = Debug;
+		};
+		2219388E1FDA8C3D00A0354B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = H87JWTNA4P;
+				INFOPLIST_FILE = YSRepeatCallerExampleUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.liyanshan.YSRepeatCallerExampleUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = YSRepeatCallerExample;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		221938551FDA8C3D00A0354B /* Build configuration list for PBXProject "YSRepeatCallerExample" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				221938841FDA8C3D00A0354B /* Debug */,
+				221938851FDA8C3D00A0354B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		221938861FDA8C3D00A0354B /* Build configuration list for PBXNativeTarget "YSRepeatCallerExample" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				221938871FDA8C3D00A0354B /* Debug */,
+				221938881FDA8C3D00A0354B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		221938891FDA8C3D00A0354B /* Build configuration list for PBXNativeTarget "YSRepeatCallerExampleTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2219388A1FDA8C3D00A0354B /* Debug */,
+				2219388B1FDA8C3D00A0354B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2219388C1FDA8C3D00A0354B /* Build configuration list for PBXNativeTarget "YSRepeatCallerExampleUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2219388D1FDA8C3D00A0354B /* Debug */,
+				2219388E1FDA8C3D00A0354B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 221938521FDA8C3D00A0354B /* Project object */;
+}
